@@ -257,10 +257,10 @@ main{
 .dest-card {
     text-align: center;
     position: relative;
-    width: 330px;
-    height: 440px;
+    width: 321px;
+    height: 399px;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 28px;
     overflow: hidden;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -302,19 +302,29 @@ main{
     color: #666;
 }
 .card-selling-content2 img{
+    position: absolute;
     width: 40px;
     height: 20px;
-    margin-top: 5px;
+    bottom: 3%;
+    left: 1%
 }
 
 .card-selling-content1 #price{
-    padding-left: 120px;
-    font-size: 20px;
+    position: absolute;
+    right: 8%;
+    font-size: 103%;
+    font-weight: 600;
+    opacity: 75%;
+    color: rgb(68 79 106);
 }
 
 .card-selling-content1 #place_name{
-    padding-right:10px ;
-    font-size: 20px;
+    position: absolute;
+    left: 7%;
+    font-size: 103%;
+    font-weight: 600;
+    opacity: 75%;
+    color: rgb(68 79 106);
 }
 
 .card-selling-content2{
@@ -326,8 +336,10 @@ main{
 }
 
 .card-selling-content2 #duration{
-    padding : 4px;
-    font-size: 20px;
+    position: absolute;
+    bottom: 3%;
+    left: 13%;
+    font-size: 15px;
     color: #666;
 }
 
@@ -492,7 +504,7 @@ main{
 .girl-card-2-txt-container h3{
     font-size: 100%;
     position: absolute;
-    top: 44px;
+    top: 38px;
     
 }
 .girl-card-2-img{
@@ -771,5 +783,3 @@ footer .footending{
 
 
  
-
-
