@@ -344,22 +344,27 @@ main{
 }
 
   /*BOOKING*/
-  .booking-content{
-    margin-top: 10rem;
-    display: flex;
+
+  .booking-txt-container{
+    margin-left: 2%;
   }
+
+  .booking-content {
+    margin-top: 10rem;
+    margin-bottom: 3.5rem;
+    display: flex;
+}
   .small-heading{
     font-size: 16px;
     margin-bottom:3%;
     font-weight: 600;
     color:rgba(3, 47, 80, 0.906);
   }
-  .big-heading{
-    font-size: 40px;
+  .big-heading {
+    font-size: 264%;
     font-weight: 600;
-    color: rgb(1, 30, 54)
-    
-  }
+    color: rgb(1, 30, 54);
+}
   .booking {
     display: flex;
     margin: 100px;
@@ -370,9 +375,10 @@ main{
 
 .steps {
     display: flex;
-    margin-top: 25px;
+    margin-top: 6%;
     margin-bottom: 25px;
 }
+
 
 .steps img{
     height: 40px;
@@ -383,13 +389,16 @@ main{
     margin-right: 150px;
 }
 
-.step-title{
-    font-weight: 999;
+.step-title {
+    font-size: 90%;
+    font-weight: 700;
     color: rgb(98, 98, 98);
 }
 
 .step-detail {
+    font-size: 93%;
     color: rgb(114, 113, 113);
+    line-height: 105%;
 }
 
 
@@ -397,7 +406,7 @@ main{
 
 
 .girl-card-container{
-    margin-right: 16%;
+    margin-right: 10%;
     margin-bottom: 0%;
     margin-top: 6%;
 
@@ -456,56 +465,81 @@ main{
     position: absolute;
     display: block;
     height: 150px;
-    margin-left: 10%;
+    margin-left: 7%;
+}
+
+.girl-card-txt-container h3{
+    font-weight: 600;
+    font-size: 104%;
+    margin-top:12%;
+    margin-bottom: -4%;
 }
 
 
 
-.girl-card-txt-container p{
-    
+.girl-card-txt-container p {
+    font-size: 86%;
     color: grey;
-    
+    font-weight: 500;
 }
+
 .girl-card-btm-txt-container{
     display:flex;
+}
+
+.girl-card-logo img{
+    margin-left: 6%;
 }
 
 .btm-txt{
     width: 90%;
     margin-left: 1%;
+    margin-top: 5%;
     padding: 8px;
     color: #818181;
     white-space: nowrap;
 }
 
-.btm-txt-heart{
-    margin-left: 20%;
-    padding: 8px;
+.btm-txt-heart {
+    position: absolute;
+    right: -79%;
+    margin-bottom: -17%;
+    padding: 24px;
 }
+
+.btm-txt-leaf{
+    margin-top:5%;
+}
+
+
 .girl-card-2 {
     display: flex;
     position: relative;
     top: -35%;
-    left: 68%;
+    left: 58%;
     width: 233px;
     height: 116px;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 18px;
     overflow: visible;
     z-index: 99;
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
 }
 
-.girl-card-2-txt-container p{
+.girl-card-2-txt-container p {
     position: absolute;
     top: 14px;
     color: grey;
+    font-size: 80%;
+    font-weight: 500;
+    opacity: 0.8;
+    bottom: 52%;
 }
-.girl-card-2-txt-container h3{
+.girl-card-2-txt-container h3 {
     font-size: 100%;
     position: absolute;
-    top: 38px;
-    
+    top: 24%;
+    font-weight: 600;
 }
 .girl-card-2-img{
     margin-top: 0%;
@@ -520,27 +554,27 @@ main{
 #progress{
     font-size: 69%;
     position: absolute;
-    top: 78px;
+    top: 56%;
 }
 
 
 #progressbar {
     position: absolute;
-    top: 111px;
-    width: 80%;
-    height: 5px;
+    top: 82%;
+    width: 85%;
+    height: 3%;
     background-color: rgb(234, 234, 234);
     border-radius: 13px;
     padding: 0.5px;
-    box-shadow: 0 8px px rgba(0, 0, 0, 0.1);
-  }
+    /*box-shadow: 0 8px px rgba(0, 0, 0, 0.1);*/
+}
   
-  #progressbar>div {
-    background-color: rgba(181, 102, 254, 0.991); /*(128,28,221)*/
-    width: 40%;
-    height: 5px;
+#progressbar>div {
+    background-color: rgba(76, 26, 214, 0.705);
+    width: 45%;
+    height: 100%;
     border-radius: 10px;
-  }
+}
 
   /*Subscribe Section*/
 
