@@ -70,7 +70,7 @@ main{
     width:80%
 }
 .hero-text-container h4{
-    color: rgb(243, 99, 63);
+    color: rgb(240, 106, 73);
     font-weight: 100;
     font-size: smaller;
     margin-bottom: -2%;
@@ -356,7 +356,7 @@ main{
   }
   .big-heading{
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
     color: rgb(1, 30, 54)
     
   }
@@ -547,24 +547,24 @@ main{
   .subscribe-container{
     position: relative;
   }
-  .form-container{
-    width: 1020px;
-    height: 361px;
+  .form-container {
+    width: 78vw;
+    height: 61.5vh;
     position: relative;
-    margin:0 auto;
-    background-color: rgba(212, 191, 244, 0.214); /*rgba(187, 156, 233, 0.839) */
+    margin: 0 auto;
+    background-color: rgb(212 191 244 / 11%);
     border-top-left-radius: 120px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-  }
+}
 
   .form-container h1{
     position: absolute;
     text-align: center;
     top: 11%;
     left: 15%;
-    
+    font-weight: 600;
     z-index: 99;
     color: #666;
     font-size: 30px;
@@ -707,15 +707,27 @@ footer .ending{
     border-radius: -3rem;
     background-color: black;
 }
-  
+ 
+
 .ending p{
     color: #2d4356db;
-    
     margin-top: 2%;
-    font-size: 14px;
+    margin-bottom: 10%;
+    font-size: 94%;
+    font-weight:600;
+}
+.ending .one p{
+    color: #2d4356db;
+    margin-top: 10%;
+    font-size: 74%;
+}
+.ending-options{
+    margin-top: 16%;
+
 }
 .ending h1{
-    font-size: 40px;
+    font-size: 240%;
+    font-weight: 500;
     color: rgb(0, 34, 62);
     margin-top: 2%;
     margin-bottom: 2%;
@@ -741,9 +753,16 @@ footer .ending{
     gap: 1rem;
     display: flex;
 }
-  
+
+.ending .two{
+    margin-left: -2.3%;
+}
+  .ending .three{
+    margin-left: -3%;
+  }
+
 .five{
-    margin-top: 2rem;
+    margin-top: 2%;
     width:200px;
   }
 
@@ -776,8 +795,9 @@ footer .footending{
   .footending p{
     width: 80%;
     font-size: 70%;
-    margin-left: 12%;
-    font-weight: 12;
+    margin-left: 9.4%;
+    margin-top:5%;
+    font-weight: 700;
 
   }
 
