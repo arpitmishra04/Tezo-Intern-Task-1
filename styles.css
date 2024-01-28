@@ -195,21 +195,19 @@ main{
 }
 
 .card .img-Flight {
-    
-    height: 80px;
-    width:80px;
+    width: 74%;
     object-fit: contain;
-    margin-top: 15px;
+    margin-top: -8%;
+    margin-bottom: -16%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 .card .img-Event{
-    
-    height: 80px;
-    width:80px;
+    height: 75px;
+    width: 75px;
     object-fit: contain;
-    margin-top: 15px;
+    margin-top: 9%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
