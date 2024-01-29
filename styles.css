@@ -70,31 +70,36 @@ main{
     width:80%
 }
 .hero-text-container h4{
+    font-weight: 500;
     color: rgb(240, 106, 73);
-    font-size: smaller;
+    font-size: 17px;
     margin-bottom: -2%;
+    margin-top: 4%;
 }
 .hero-text-container h1{
     text-shadow: 0px 1px, 1px 0px, 1px 1px;
-    font-size: 59px;
+    font-size: 70px;
     color: rgb(4 42 71);
-    margin-bottom:9%;
-    margin-top: 3%;
-    line-height: 64px;
+    margin-bottom: 4%;
+    margin-top: 6%;
+    line-height: 77px;
 }
 .hero-text-container-title{  
     margin-top: -7%;
     font-weight: 998;
 }
 .hero-text-container-desc{
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 25px;
+    color:rgb(4 42 71);
+    opacity:0.8;
 }
 
 
 .hero-text-container-btn{
     background-color:  rgb(242, 175, 42);
     box-shadow:2px 5px 19px rgb(224 219 210);
-    padding: 3%;
+    padding: 2%;
     border-radius: 6px;
     color: #fff;
     /*box-shadow: 0px 0px 10px 1px  rgb(242, 132, 98);*/
@@ -102,11 +107,16 @@ main{
     margin-top: 8%;
 }
 
+.hero-img-container{
+    position: absolute;
+    left: 10%;
+
+}
+
 .hero-img-container img{
-    
-    width:95%;
-    margin-top: -10%;
-    margin-left:9%;
+    width: 61%;
+    margin-top: -6%;
+    margin-left: 32%;
 }
 
 
