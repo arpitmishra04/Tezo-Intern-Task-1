@@ -1,354 +1,292 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        font-family: "Poppins", serif;
-      }
-    </style>
-    <title>Home Page</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="\images\decore.png" alt="logo" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Home page</title>
+</head>
+<body>
+      <header>
+          <div class="header">
+              <div class="header-icon">
+                  <img src="images/logo.png" alt="header-icon" width="100">
+              </div>
+              <div class="header-options">
+                <a href="" >Destinations</a>
+                <a href="" >Hotels</a>
+                <a href="" >Flights</a>
+                <a href="" >Bookings</a>
+                <a href="" >Login</a>
+                <button class="btn-signup">Sign up</button>
+                <select class="lang-select">
+                  <option value="EN">EN</option>
+                  <option value="HN">HN</option> 
+                </select>
+              </div>
+          </div>
+      </header>
+      <div class="home">
+        <div class="home-text-content">
+          <span id="home-short-description">BEST DESTINATIONS AROUND THE WORLD</span>
+          <h1 id="home-heading"><strong></b>Travel,enjoy<br> and live a new<br> and full life</strong></h1>
+          <p id="home-descrption">Built Wicket Longer admire do barton vanity itself do in it<br>
+          Preferred to sportsmen it engrossed listening.Park gate<br>
+          sell they west hard for the.</p>
+          <button class="btn-find-out-more">Find out more</button>
+        </div>
+        <div class="home-right-side-image">
+          <img src="images/traveller.png" alt="traveller" height="600" >
+        </div>
       </div>
 
-      <nav>
-        <a href="" title="Destinations">Destinations</a>
-        <a href="" title="Hotels">Hotels</a>
-        <a href="" title="Flights">Flights</a>
-        <a href="" title="Bookings">Bookings</a>
-        <a href="" title="Login">Login</a>
-        <a href="" class="nav-signup" title="Sign up">Sign up</a>
+      <div class="category">
+        <p>CATEGORY</p>
+        <h1>We Offer Best Services</h1>  
+      </div>
+      <div class="card-container-services">
+        <div class="card-services-offered">
+          <img src="images/weather.png" alt="Calculatedweather">
+            <div>
+              <h3>Calculated Weather</h3>
+              <p>Built Wicket longer<br>admire do barton <br>vanity itself do in it.</p>
+            </div>
+        </div>
+        <div class="card-services-offered">
+          <img src="images/flight.png" alt="BestFlight">
+            <div>
+              <h3>Best Flights</h3>
+              <p>Engrossed listening<br>Park gate sell they <br>west hard for the.</p>
+            </div>
+        </div>
+        <div class="card-services-offered">
+          <img src="images/event.png" alt="Localevents">
+            <div>
+              <h3>Local Events</h3>
+              <p>Barton vanity itself do<br>in it. Prefered to men it <br>engrossed listening.</p>
+            </div>
+        </div>
+        <div class="card-services-offered">
+          <img src="images/customization.png" alt="customization">
+            <div>
+              <h3>Customization</h3>
+              <p>We Deliver outsourced <br>aviation services for <br> military customers.</p>
+            </div>
+        </div> 
+      </div>
 
-        <select name="lang" id="lang">
-          <option value="English">EN</option>
-          <option value="Greek">El</option>
-          <option value="Arabic">Ar</option>
-          <option value="Hindi">HI</option>
-        </select>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="hero-text-container">
-          <h4>BEST DESTINATIONS AROUND THE WORLD</h4>
-          <h1>
-            Travel, enjoy<br />
-            and live a new <br />
-            and full life
-          </h1>
-          <pre class="hero-text-container-desc">
-Build Wicket longer admire do barton vanity itself do in it.
-Prefered to sportsmen it engrossed listening.Park gate
-sell they west hard for the.</pre
-          >
-          <button class="hero-text-container-btn">Find out more</button>
-        </div>
-        <div class="hero-img-container">
-          <img src="\images\traveller.png" alt="" />
-        </div>
-      </section>
-
-      <section class="cat">
-        <div class="cat-title-container">
-          <div class="cat-title">
-            <h6>CATEGORY</h6>
-            <p>We Offer Best Services</p>
-          </div>
-        </div>
-        <div class="cat-plus-img">
-          <img src="\images\plus.png" alt="" />
-        </div>
-        <div class="card-container">
-          <div class="card">
-            <img class="img-Weather" src="\images\weather.png" alt="" />
-            <h5>Calculated Weather</h5>
-            <p>
-              Built Wicket longer<br />
-              admire do barton <br />vanity itself do in it.
-            </p>
-          </div>
-          <div class="card">
-            <img class="img-Flight" src="\images\flight.png" alt="" />
-            <h5>Best Flights</h5>
-            <p>
-              Engrossed listening.<br />Park gate sell they<br />west hard for
-              the.
-            </p>
-          </div>
-          <div class="card">
-            <img class="img-Event" src="\images\event.png" alt="" />
-            <h5>Local Events</h5>
-            <p>
-              Barton vanity itself do<br />in it.Preferd to men it<br />engrossed
-              listening.
-            </p>
-          </div>
-          <div class="card">
-            <img class="img-Custom"   src="\images\customization.png" alt="" />
-            <h5>customization</h5>
-            <p>
-              We deliver outsourced<br />aviation services for<br />military
-              customers
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="dest">
-        <div class="dest-title-container">
-          <div class="dest-title">
-            <h6>Top Selling</h6>
-            <h1>Top Destinations</h1>
-          </div>
-        </div>
-
-        <div class="dest-card-container">
-          <div class="dest-card">
-            <div class="dest-card-img">
-            <img class="rome" src="\images\rome.png" alt="" />
-          </div>
-            <div class="card-selling-content1">
-              <span id="place_name">Rome,Italty</span>
-              <span id="price">$5.42k</span>
+      <div class="selling-box">
+        <p>Top Selling</p>
+        <h1>Top Destinations</h1>  
+      </div>
+      <div class="card-container-selling">
+        <div class="card-selling">
+          <div class="card-selling-content">
+            <img class="place-image" src="images/rome.png" alt="Rome">
+            <div class="card-selling-place-price">
+              <span class="place-name">Rome,Italty</span>
+              <span class="price">$5.42k</span>
             </div>
-            <div class="card-selling-content2">
-              <img src="\images\sent.png" />
-              <span id="duration">10 Days Trip</span>
-            </div>
-          </div>
-          <div class="dest-card">
-            <div class="dest-card-img">
-            <img class="london" src="\images\london.jpg" alt="" />
-          </div>
-            <div class="card-selling-content1">
-              <span id="place_name">London,UK</span>
-              <span id="price">$4.2k</span>
-            </div>
-            <div class="card-selling-content2">
-              <img src="\images\sent.png" />
-              <span id="duration">12 Days Trip</span>
-            </div>
-          </div>
-          <div class="dest-card">
-            <div class="dest-card-img">
-            <img class="europe" src="\images\europe.png" alt="" />
-          </div>
-            <div class="card-selling-content1">
-              <span id="place_name">Full Europe</span>
-              <span id="price">$15k</span>
-            </div>
-            <div class="card-selling-content2">
-              <img src="\images\sent.png" />
-              <span id="duration">28 Days Trip</span>
+            <div class="card-selling-duration-icon">
+              <img src="images/nevigation-icon.png" >
+              <span class="duration">10 Days Trip</span>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="booking-content">
-        <div class="booking-txt-container">
-          <div class="small-heading">Easy and Fast</div>
-          <div class="big-heading">
-            Book Your Next Trip<br />
-            In 3 Easy Steps
+        <div class="card-selling">
+          <div class="card-selling-content">
+            <img class="place-image" src="images/london.jpg" alt="London">
+            <div class="card-selling-place-price">
+              <span class="place-name">London,UK</span>
+              <span class="price">$4.2k</span>
+            </div>
+            <div class="card-selling-duration-icon">
+              <img src="images/nevigation-icon.png" >
+              <span class="duration">12 Days Trip</span>
+            </div>
           </div>
-          <div class="steps">
-            <img src="\images\choose-dest.png" />
-            <div class="step-details">
-              <div class="step-title">Choose Destination</div>
-              <div class="step-detail">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
+        </div>
+        <div class="card-selling">
+          <div class="card-selling-content">
+            <img class="place-image" src="images/europe.png" alt="Europe">
+            <div class="card-selling-place-price">
+              <span class="place-name">Full Europe</span>
+              <span class="price">$15k</span>
+            </div>
+            <div class="card-selling-duration-icon">
+              <img src="images/nevigation-icon.png" >
+              <span class="duration">28 Days Trip</span>
+            </div>
+          </div>
+        </div>
+      </div> 
+        
+      <div class="steps-block">
+        <div class="steps-left-description">
+          <span id="steps-short-header">Easy and Fast</span>
+          <h1 id="steps-header">Book Your Next Trip<br>In 3 Easy Steps</h1>
+          <div class="steps-img-text">
+            <div class="steps-img">
+              <img src="images/yellow-icon.png" alt="Destination">
+            </div>
+            <div class="steps-text">
+              <div>
+                <span class="steps-heading">Choose Destination</span>
               </div>
-            </div>
-          </div>
-          <div class="steps">
-            <img src="\images\Group 12.png" />
-            <div class="step-details">
-              <div class="step-title">Make Payment</div>
-              <div class="step-detail">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
+              <div>
+                <span class="steps-detail">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Urna, tortor tempus.</span>
               </div>
             </div>
           </div>
 
-          <div class="steps">
-            <img src="\images\Group 11.png" />
-            <div class="step-details">
-              <div class="step-title">Reach Airport on Selected Date</div>
-              <div class="step-detail">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
+          <div class="steps-img-text">
+            <div class="steps-img">
+              <img src="images/beach.png" alt="Payments">
+            </div>
+            <div class="steps-text">
+              <div>
+                <span class="steps-heading">Make Payments</span>
+              </div>
+              <div>
+                <span class="steps-detail">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Urna, tortor tempus.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="steps-img-text">
+            <div class="steps-img">
+              <img src="images/car.png" alt="cab">
+            </div>
+            <div class="steps-text">
+              <div>
+                <span class="steps-heading">Reach Airport on Selected Date</span>
+              </div>
+              <div>
+                <span class="steps-detail">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Urna, tortor tempus.</span>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="girl-card-container">
-          <div class="girl-card-1">
-            <div class="girl">
-              <img class="girl-img" src="\images\girl.jpg" alt="" />
-            </div>
-            <div class="girl-card-txt-container">
-              <h3>Trip To Greece</h3>
-              <p>14-29 June| by Robbin Jr</p>
-              <div class="girl-card-logo">
-                <img class="girl-leaf-logo" src="\images\LEAF.png" alt="" />
-                <img class="girl-map-logo" src="\images\map.png" alt="" />
-                <img class="girl-send-logo" src="\images\send.png" alt="" />
+        <div class="steps-right-card">
+          <div class="steps-right-card-img">
+            <div class="steps-right-greece"> 
+              <img  id="greece" src="images/girl.jpg" alt="red girl">
+              <div class="steps-place-duration">
+                <span id="steps-right-place-name">Trip to Greece</span>
               </div>
-              <div class="girl-card-btm-txt-container">
-                <div class="btm-txt-leaf">
-                  <img
-                    class="girl-people-logo"
-                    src="\images\people.png"
-                    alt=""
-                  />
-                </div>
-                <p class="btm-txt">24 people going</p>
-                <div class="btm-txt-heart">
-                  <img class="girl-send-logo" src="\images\heart.png" alt="" />
+              <div class="steps-duration">
+                <span id="steps-right-duration">28 Days Trip | by Robin john</span>
+              </div>
+              <div class="place-description">
+                <img src="images/leaf.png" alt="leaf">
+                <img src="images/white-page.png" alt="ellipse">
+                <img src="images/send.png" alt="send">
+              </div>
+              <div class="people-going">
+                <img src="images/" alt="buildings">
+                <p>24 people going</p>
+                <img id="save-icon" src="images/heart.png" alt="heart icon">
+              </div>
+            </div>
+          </div>
+          <div class="ongoing-card">
+            <div class="align-ongoing-card">
+              <div class="ongoing-card-image">
+                  <img src="images/round-city-img.png" alt="Greece">
+              </div>
+              <div class="ongoing-card-content">
+                <p>Ongoing</p>
+                <h4>Trip to rome</h4>
+                <p class="progress-status"><span>40%</span> completed</p>
+                <div class="progress-bar-container">
+                    <progress value="40" max="100"></progress>
                 </div>
               </div>
             </div>
           </div>
-          <div class="girl-card-2">
-            <div class="girl-card-2-img">
-              <img class="girl-rome-logo" src="\images\rome-dome.jpg" alt="" />
+        </div>
+      </div> 
+      
+      <div class="subscribe-box">
+        <div class="subscribe-box-inner">
+          <div class="subscribe-box-decoration">
+            <img src="images/send-purple.png"  class="subscribe-arrow">
+            <img src="images/spiral.png"  class="left-decor-tornado-circle">
+            <img src="images/spiral.png"  class="right-decor-tornado-circle">
+            <div class="subscribe-text-description">
+              Subscribe to get information,latest news and other<br> interesting offer about cobham
             </div>
-            <div class="girl-card-2-txt-container">
-              <p>Ongoing</p>
-              <h3>Trip to rome</h3>
-              <p id="progress">40%</p>
-              <p id="progress-status">Completed</p>
-              <div id="progressbar">
-                <div></div>
+            <div class="email-section">
+              <div class="email-form-box">
+                <img src="images/mail.png"  alt="email-icon" />
+                <input class="subscribe-email" type="email" placeholder="Your email " />
               </div>
+                <button class="subscribe-button">Subscribe</button>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="subscribe">
-        <div class="form-container">
-          <h1>
-            Subscribe to get information,latest news and other<br />intresting
-            offers about Cobham
-          </h1>
-
-          <form action="/subscribe" action="post">
-            <img class="form-mail-icon" src="\images\mail.png" alt="" />
-            <input id="email" type="email" placeholder="Your email" />
-            <button id="button" type="submit">Subscribe</button>
-          </form>
-
-          <img class="subscribe-send-logo" src="\images\Group 77.png" alt="" />
-          <img class="form-bg-image-1" src="\images\Group 42.png" alt="" />
-          <img class="form-bg-image-2" src="\images\Group 42.png" alt="" />
-        </div>
-        <img class="subscribe-plus-img" src="\images\plus.png" alt="" />
-      </section>
-    </main>
-    <footer>
-      <div class="ending">
-        <div class="one">
-          <h1>TravelPro</h1>
-          <p>Book your trip in minute,get full<br />Control for much longer.</p>
-        </div>
-        <div class="two">
-          <h3>Company</h3>
-          <div class="ending-options">
-          <p>About</p>
-          <p>Careers</p>
-          <p>Mobile</p>
-        </div>
-        </div>
-
-        <div class="three">
-          <h3>Contact</h3>
-          <div class="ending-options">
-          <p>Help/FAQ</p>
-          <p>Press</p>
-          <p>Affilates</p>
-        </div>
-        </div>
-        <div class="four">
-          <h3>More</h3>
-          <div class="ending-options">
-          <p>Airlinefees</p>
-          <p>Airline</p>
-          <p>Low fare tips</p>
-        </div>
-        </div>
-
-        <div class="five">
-          <div class="fiver1">
-            <div class="circle">
-              <img
-                src="\images\facebook.png"
-                alt=" Logo"
-                Facebook
-                class="instagram-logo"
-              />
-            </div>
-            <div class="circle">
-              <img
-                src="\images\instagram.png"
-                alt="Instagram Logo"
-                class="instagram-logo"
-              />
-            </div>
-            <div class="circle">
-              <img
-                src="\images\twitter.png"
-                alt="Instagram Logo"
-                class="instagram-logo"
-              />
-            </div>
-          </div>
-
-          <p>Discover our app</p>
-          <div class="fiverow">
-            <div class="storecard">
-              <div class="google-container">
-                <img
-                  id="googleplay"
-                  src="\images\googleplay.png"
-                  width="100px"
-                  height="30px"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="storecard">
-              <div class="apple-container">
-                <img
-                  id="applestore"
-                  src="\images\Appleplay.png"
-                  width="90px"
-                  height="30px"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
+          <img src="images/plus-2.png"  class="subscribe-box-plus-img">
         </div>
       </div>
 
-      <div class="footending">
+      <footer>
+        <div class="footer-container">
+          <div class="row-company-name">
+              <h1>TravelPro</h1>
+              <p>Book your trip in minute,get full<br>Control for much longer.</p>
+          </div>
+          <div class="row-company">
+            <h3>Company</h3>
+            <p>About</p>
+            <p>Careers</p>
+            <p>Mobile</p>
+          </div>
+          <div class="row-contacts">
+              <h3>Contact</h3>
+              <p>Help/FAQ</p>
+              <p>Press</p>
+              <p>Affilates</p>
+          </div>
+          <div class="row-more">
+              <h3>More</h3>
+              <p>Airlinefees</p>
+              <p>Airline</p>
+              <p>Low fare steps</p>
+          </div>
+          <div class="social-media">
+            <div class="social-media-links">
+              <div class="social-media-icon">
+                <img src="images/facebook.png" alt="FB-icon" id="facebook-icon">
+              </div>
+              <div class="social-media-icon">
+                <img src="images/insta.jpg" alt="IG-icon" id="instagram-icon">
+              </div>
+              <div class="social-media-icon">
+                <img src="images/twitter-modified.png" alt="Twitter-icon" id="Twitter-icon">
+              </div>
+            </div>
+            <div class="discover-app-text">
+              <p>Discover our app</p>
+            </div>
+            <div class="discover-app-image">
+              <div class="footer-image-find-us">                            
+                <img src="images/play-icon.png" width="100px" height="30px" alt="google-play">
+              </div>
+              <div class="footer-image-find-us">                       
+                <img src="images/apple-icon.png" width="100px" height="30px" alt="app-store">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">       
         <p>All rights reserved @travelpro.com</p>
       </div>
     </footer>
-  </body>
+    
+    
+</body>
 </html>
+    
+    
+
