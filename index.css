@@ -312,6 +312,7 @@ p{
   justify-content: center;
   padding: 1rem;
   border-radius: 1.5rem;
+  width: 320px;
   position: absolute;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
   box-shadow: 45px -60px 120px rgba(121, 192, 238, 0.3), 0 15px 20px rgba(0, 0, 0, 0.15);
@@ -354,6 +355,12 @@ p{
 }
 .people-going #save-icon{
   margin-left: auto;
+}
+
+
+
+.building-img{
+  width:8%;
 }
 
 
@@ -680,7 +687,7 @@ footer p ,img{
       box-shadow: 45px -60px 120px rgba(121, 192, 238, 0.3), 0 15px 20px rgba(0, 0, 0, 0.15);
   }
   .steps-right-greece #greece {
-      width: 300px;
+      width: 317px;
       height: 140px;
   }
   .ongoing-card {
@@ -782,7 +789,7 @@ footer p ,img{
       box-shadow: 45px -60px 120px rgba(121, 192, 238, 0.3), 0 15px 20px rgba(0, 0, 0, 0.15);
   }
   .steps-right-greece #greece {
-      width: 300px;
+      width: 317px;
       height: 140px;
   }
   .ongoing-card {
